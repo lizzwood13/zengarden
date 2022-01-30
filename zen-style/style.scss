@@ -1,5 +1,5 @@
-@use 'variables' as *; //this puts all the variables in the global namespace.
-@use 'atoms';
+@import 'variables'; //this puts all the variables in the global namespace.
+@import 'atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
 
@@ -14,7 +14,7 @@ html {
 body {
   font-family: $fonts-body;
   font-size: 85%;
-  color: $text-dark;
+  color: $text-bright;
   background-color: $primary;
   margin: 0;
   padding: 1em;
