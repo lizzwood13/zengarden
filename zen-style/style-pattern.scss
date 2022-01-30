@@ -1,10 +1,12 @@
-@use 'variables' as *; //this puts all the variables in the global namespace.
-@use 'atoms';
+@import 'variables'; //this puts all the variables in the global namespace.
+@import 'atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tajawal:wght@400;500;700&display=swap');
 
 * {
   box-sizing: border-box;
+  color:$text-light;
 }
 html {
   background-color: $background-color;
@@ -12,29 +14,29 @@ html {
 }
 
 body {
-  font-family: $fonts-body;
+  font-family: 'Neonderthaw', cursive;
   font-size: 85%;
   color: $text-dark;
-  background-color: $primary;
+  // background-color: $primary;
   margin: 0;
   padding: 1em;
 }
 
 section {
-  background-color: white;
+  // background-color: white;
   padding: 1em;
   margin: 1em;
 }
 .colors {
-  @include atoms.set-flex();
-  > h3 {
-    width: 100%;
-    flex: 1 0 100%;
-  }
-  > figure {
-    margin: 0;
-    flex: 1 1 25%;
-  }
+  // @include atoms.set-flex();
+  // > h3 {
+  //   width: 100%;
+  //   flex: 1 0 100%;
+  // }
+  // > figure {
+  //   margin: 0;
+  //   flex: 1 1 25%;
+  // }
 }
 .swatch {
   width: 100%;
@@ -42,16 +44,16 @@ section {
   border: 1px solid;
 }
 .primary {
-  background-color: $primary;
+  // background-color: $primary;
 }
 .accent1 {
-  background-color: $accent1;
+  // background-color: $accent1;
 }
 .accent2 {
-  background-color: $accent2;
+  // background-color: $accent2;
 }
 .text-dark {
-  background-color: $text-dark;
+  // background-color: $text-dark;
 }
 .element {
   border: 1px solid;
@@ -59,8 +61,8 @@ section {
   padding: 1em;
 }
 .uppercase {
-  @include atoms.uppercase;
+  // @include atoms.uppercase;
 }
 .uppercase-light {
-  @include atoms.uppercase($text-light);
+  // @include atoms.uppercase($text-light);
 }
