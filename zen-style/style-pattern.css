@@ -62,7 +62,6 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(22, 21, 21, 0.9);
   color: #00E4F5;
   text-decoration: none;
   -webkit-transition: border-color 0.2s ease-in-out;
@@ -103,6 +102,10 @@ section {
   border: 1px solid;
 }
 
+.primary {
+  background-color: #00E4F5;
+}
+
 .accent1 {
   background-color: #30D952;
 }
@@ -111,7 +114,7 @@ section {
   background-color: #D733AB;
 }
 
-.text-dark {
+.text-bright {
   background-color: #00E4F5;
 }
 
