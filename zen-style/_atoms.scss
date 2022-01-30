@@ -12,7 +12,7 @@
   flex-flow: $direction $wrap;
 }
 
-@mixin uppercase($color: $text-dark) {
+@mixin uppercase($color: $text-bright) {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -102,8 +102,8 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: $text-dark;
+  border-bottom: 1px solid rgba(22, 21, 21, 0.9);
+  color: $text-bright;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }

@@ -61,8 +61,8 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
+  border-bottom: 1px solid rgba(22, 21, 21, 0.9);
+  color: #00E4F5;
   text-decoration: none;
   -webkit-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
@@ -78,11 +78,15 @@ a:hover {
 }
 
 html {
+  background-color: #151c2b;
   padding: 5%;
 }
 
 body {
+  font-family: "Tajawal", sans-serif;
   font-size: 85%;
+  color: #00E4F5;
+  background-color: #00E4F5;
   margin: 0;
   padding: 1em;
 }

@@ -16,12 +16,12 @@
     @include atoms.divider;
   }
   a {
-    color: $text-light; //in this case the link wants to be light instead of the default dark
+    color: $text-light; //in this case the link wants to be light instead of the default bright
   }
 }
 .preamble {
   background: rgba(255, 255, 255, 0.9);
-  color: $text-dark;
+  color: $text-bright;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
 }
