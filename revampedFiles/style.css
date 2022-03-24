@@ -14,16 +14,15 @@ h1 {
   background: #30D952;
   color: #fff;
   display: inline-block;
-  font-weight: normal;
+  font-family: "Lemonada", cursive;
   margin-bottom: 1em;
   padding: 0.5em 1em;
+  font-size: 4.5em;
 }
 
 h2 {
   color: #fff;
-  font-weight: 900;
-  /* Heavy */
-  font-size: 6em;
+  font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
 }
@@ -60,11 +59,15 @@ h4 {
 h2 {
   color: #fff;
   display: inline-block;
-  font-weight: normal;
   margin-bottom: 1em;
   padding: 0.5em 1em;
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #30D952, 0 0 82px #30D952, 0 0 92px #30D952, 0 0 102px #30D952, 0 0 151px #30D952;
+  background: #0000008c;
+  border-style: double;
+  border-width: 20px;
+  border-color: #30D952;
+  box-shadow: 10px 10px 60px 10px #108f2969;
 }
 
 p {
@@ -127,13 +130,13 @@ a:hover {
 }
 
 .explanation, .requirements, .resources, .summary {
-  background: #1fc0404f;
+  background: #108f2969;
   border-style: double;
   border-width: thick;
   border-color: #30D952;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px #1fc0404f;
+  box-shadow: 10px 10px 60px 10px #108f2969;
 }
 
 .participation, .design-selection {

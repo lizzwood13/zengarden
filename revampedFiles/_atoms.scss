@@ -36,14 +36,14 @@ h1 {
   background: $accent1;
   color: $text-light;
   display: inline-block;
-  font-weight: normal;
+  font-family: $fonts-headline2;
   margin-bottom: 1em;
   padding: 0.5em 1em;
+  font-size: 4.5em;
 }
 h2 {
   color: $text-light;
-  font-weight: 900; /* Heavy */
-  font-size: 6em;
+  font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
 }
@@ -92,7 +92,7 @@ h2 {
 
   color: $text-light;
   display: inline-block;
-  font-weight: normal;
+
   margin-bottom: 1em;
   padding: 0.5em 1em;
   color: $text-light;
@@ -105,6 +105,12 @@ h2 {
     0 0 92px $accent1,
     0 0 102px $accent1,
     0 0 151px $accent1;
+    background: $dark-transparent;
+    border-style:double;
+    border-width: 20px;
+    border-color: $accent1;
+
+    box-shadow: 10px 10px 60px 10px $green-glow;
 }
 
 p {
