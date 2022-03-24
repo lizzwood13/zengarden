@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables' as *;
 
 // mixins to take care of repeated patterns.
 @mixin set-font($size: 1em, $line-height: normal, $font: $fonts-body) {
@@ -12,7 +12,7 @@
   flex-flow: $direction $wrap;
 }
 
-@mixin uppercase($color: $text-bright) {
+@mixin uppercase($color: $text-dark) {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -24,14 +24,44 @@
   padding-top: 1.5em;
 }
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
-h1,
+h2{
+  font-family: $fonts-headline;
+}
 h3,
 h4 {
-  font-family: $fonts-headline;
+  font-family: $fonts-headline3;
   margin: 0;
-
 }
-h1{
+h1 {
+  background: $accent1;
+  color: $text-light;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+h2 {
+  color: $text-light;
+  font-weight: 900; /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+h3 {
+  font-size: 3em;
+  font-weight: 300; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+h1 {
   color: $text-light;
   text-shadow:
     0 0 7px $text-light,
@@ -43,7 +73,9 @@ h1{
     0 0 102px $accent2,
     0 0 151px $accent2;
 }
-h3, h4{
+
+h3,
+h4 {
   color: $text-light;
   text-shadow:
     0 0 7px $text-light,
@@ -55,6 +87,7 @@ h3, h4{
     0 0 102px $primary,
     0 0 151px $primary;
 }
+
 h2 {
 
   color: $text-light;
@@ -73,27 +106,6 @@ h2 {
     0 0 102px $accent1,
     0 0 151px $accent1;
 }
-h2 {
-  color: $text-light;
-  font-weight: 900; /* Heavy */
-  font-size: 6em;
-  letter-spacing: 1px;
-  line-height: 1em;
-}
-h3 {
-  font-size: 2.25em;
-  font-weight: 200; /* Thin */
-  letter-spacing: 1px;
-  line-height: 1em;
-  padding: 0.5em 0 0.25em 0;
-}
-h4 {
-  font-size: 1.5em;
-  font-weight: 200; /* Thin */
-  letter-spacing: 1px;
-  line-height: 1em;
-  margin: 0.5em 0;
-}
 
 p {
   @include set-font(1em, 1.5em);
@@ -102,7 +114,8 @@ p {
 }
 
 a {
-  color: $text-bright;
+  border-bottom: 1px solid $pink-glow;
+  color: $text-dark;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }

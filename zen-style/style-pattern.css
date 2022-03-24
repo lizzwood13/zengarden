@@ -64,7 +64,6 @@ p {
 a {
   color: #00E4F5;
   text-decoration: none;
-  -webkit-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
 }
 
@@ -73,8 +72,7 @@ a:hover {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #fff;
 }
 
@@ -84,7 +82,7 @@ html {
 }
 
 body {
-  font-family: 'Neonderthaw', cursive;
+  font-family: "Neonderthaw", cursive;
   font-size: 85%;
   color: #00E4F5;
   margin: 0;
@@ -122,5 +120,4 @@ section {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
-}
-/*# sourceMappingURL=style-pattern.css.map */
+}/*# sourceMappingURL=style-pattern.css.map */

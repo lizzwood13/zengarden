@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'atoms';
+@use 'variables' as *;
+@use 'atoms';
 
 // use the mixins from the atoms module to compose our molecules. If you prefer the terminology 'blocks' and 'elements' feel free to use it instead!
 //The base styling we made on our atoms (elements) does most of the work...here we would make any modifications on the elements if they need to appear differently in a certain molecule (block)
@@ -16,12 +16,16 @@
     @include atoms.divider;
   }
   a {
-    color: $text-light; //in this case the link wants to be light instead of the default bright
+    color: $text-light; //in this case the link wants to be light instead of the default dark
   }
 }
 .preamble {
-  background: rgba(255, 255, 255, 0.9);
-  color: $text-bright;
+  background: $pink-glow;
+  border-style: double;
+  border-width: thick;
+  border-color: $accent2;
+  color: $text-dark;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
+  box-shadow: 10px 10px 60px 10px $pink-glow;
 }
