@@ -19,13 +19,34 @@
     color: $text-light; //in this case the link wants to be light instead of the default dark
   }
 }
-.preamble {
+.preamble, .benefits, .archives, h1{
   background: $pink-glow;
   border-style: double;
   border-width: thick;
   border-color: $accent2;
-  color: $text-dark;
+
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
   box-shadow: 10px 10px 60px 10px $pink-glow;
+}
+
+.explanation, .requirements, .resources, .summary {
+  background: $green-glow;
+  border-style: double;
+  border-width: thick;
+  border-color: $accent1;
+
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  box-shadow: 10px 10px 60px 10px $green-glow;
+}
+
+.participation, .design-selection {
+  background: $blue-glow;
+  border-style: double;
+  border-width: thick;
+  border-color: $blue;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  box-shadow: 10px 10px 60px 10px $blue-glow;
 }
