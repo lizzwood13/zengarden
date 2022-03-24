@@ -41,12 +41,7 @@ h1 {
   padding: 0.5em 1em;
   font-size: 6.5em;
 }
-h2 {
-  color: $text-light;
-  font-size: 5em;
-  letter-spacing: 1px;
-  line-height: 1em;
-}
+
 h3 {
   font-size: 3em;
   font-weight: 300; /* Thin */
@@ -89,28 +84,31 @@ h4 {
 }
 
 h2 {
-
-  color: $text-light;
+   font-size: 5em;
+   letter-spacing: 1px;
+   line-height: 1em;
   display: inline-block;
-
   margin-bottom: 1em;
   padding: 0.5em 1em;
   color: $text-light;
   text-shadow:
-    0 0 7px $text-light,
+    // 0 0 7px $text-light,
     0 0 10px $text-light,
-    0 0 21px $text-light,
+    // 0 0 21px $text-light,
     0 0 42px $accent1,
     0 0 82px $accent1,
     0 0 92px $accent1,
     0 0 102px $accent1,
     0 0 151px $accent1;
     background: $dark-transparent;
-    border-style:double;
-    border-width: 20px;
-    border-color: $accent1;
-
-    box-shadow: 10px 10px 60px 10px $green-glow;
+    border: .25rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem $green-glow,
+    0 0 0.8rem $green-glow,
+    0 0 2.8rem $green-glow,
+    inset 0 0 1.3rem $green-glow;
 }
 
 p {

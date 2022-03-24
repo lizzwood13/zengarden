@@ -21,24 +21,32 @@
 }
 .preamble, .benefits, .archives, h1{
   background: $pink-glow;
-  border-style: double;
-  border-width: thick;
   border-color: $accent2;
-
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px $pink-glow;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem $pink-glow,
+  0 0 0.8rem $pink-glow,
+  0 0 2.8rem $pink-glow,
+  inset 0 0 1.3rem $pink-glow;
 }
 
 .explanation, .requirements, .resources, .summary {
   background: $green-glow;
-  border-style: double;
-  border-width: thick;
   border-color: $accent1;
-
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px $green-glow;
+    border: .45rem double #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem $green-glow,
+    0 0 0.8rem $green-glow,
+    0 0 2.8rem $green-glow,
+    inset 0 0 1.3rem $green-glow;
 }
 
 .participation, .design-selection {
@@ -48,5 +56,12 @@
   border-color: $blue;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px $blue-glow;
+   border: 0.2rem solid #fff;
+   border-radius: 2rem;
+   box-shadow: 0 0 .2rem #fff,
+   0 0 .2rem #fff,
+   0 0 2rem $blue-glow,
+   0 0 0.8rem $blue-glow,
+   0 0 2.8rem $blue-glow,
+   inset 0 0 1.3rem $blue-glow;
 }

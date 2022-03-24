@@ -20,13 +20,6 @@ h1 {
   font-size: 6.5em;
 }
 
-h2 {
-  color: #fff;
-  font-size: 5em;
-  letter-spacing: 1px;
-  line-height: 1em;
-}
-
 h3 {
   font-size: 3em;
   font-weight: 300;
@@ -57,17 +50,18 @@ h4 {
 }
 
 h2 {
-  color: #fff;
+  font-size: 5em;
+  letter-spacing: 1px;
+  line-height: 1em;
   display: inline-block;
   margin-bottom: 1em;
   padding: 0.5em 1em;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #30D952, 0 0 82px #30D952, 0 0 92px #30D952, 0 0 102px #30D952, 0 0 151px #30D952;
+  text-shadow: 0 0 10px #fff, 0 0 42px #30D952, 0 0 82px #30D952, 0 0 92px #30D952, 0 0 102px #30D952, 0 0 151px #30D952;
   background: #0000008c;
-  border-style: double;
-  border-width: 20px;
-  border-color: #30D952;
-  box-shadow: 10px 10px 60px 10px #108f2969;
+  border: 0.25rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #108f2969, 0 0 0.8rem #108f2969, 0 0 2.8rem #108f2969, inset 0 0 1.3rem #108f2969;
 }
 
 p {
@@ -121,22 +115,22 @@ a:hover {
 
 .preamble, .benefits, .archives, h1 {
   background: #d733ab67;
-  border-style: double;
-  border-width: thick;
   border-color: #D733AB;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px #d733ab67;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d733ab67, 0 0 0.8rem #d733ab67, 0 0 2.8rem #d733ab67, inset 0 0 1.3rem #d733ab67;
 }
 
 .explanation, .requirements, .resources, .summary {
   background: #108f2969;
-  border-style: double;
-  border-width: thick;
   border-color: #30D952;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px #108f2969;
+  border: 0.45rem double #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #108f2969, 0 0 0.8rem #108f2969, 0 0 2.8rem #108f2969, inset 0 0 1.3rem #108f2969;
 }
 
 .participation, .design-selection {
@@ -146,7 +140,9 @@ a:hover {
   border-color: #00E4F5;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
-  box-shadow: 10px 10px 60px 10px #00e5f536;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00e5f536, 0 0 0.8rem #00e5f536, 0 0 2.8rem #00e5f536, inset 0 0 1.3rem #00e5f536;
 }
 
 .intro {
