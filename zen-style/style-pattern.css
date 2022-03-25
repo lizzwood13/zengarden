@@ -1,42 +1,126 @@
-/*
-Error: Invalid CSS after "  @include atoms": expected "}", was ".set-flex();"
-        on line 29 of C:\Users\kryst\Documents\git\zengarden\zen-style\style-pattern.scss
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tajawal:wght@400;500;700&display=swap");
+h1,
+h3,
+h4 {
+  font-family: "Neonderthaw", cursive;
+  margin: 0;
+}
 
-24:   background-color: white;
-25:   padding: 1em;
-26:   margin: 1em;
-27: }
-28: .colors {
-29:   @include atoms.set-flex();
-30:   > h3 {
-31:     width: 100%;
-32:     flex: 1 0 100%;
-33:   }
-34:   > figure {
+h1 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #D733AB, 0 0 82px #D733AB, 0 0 92px #D733AB, 0 0 102px #D733AB, 0 0 151px #D733AB;
+}
 
-Backtrace:
-C:\Users\kryst\Documents\git\zengarden\zen-style\style-pattern.scss:29
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"  @include atoms\": expected \"}\", was \".set-flex();\"\A         on line 29 of C:\Users\kryst\Documents\git\zengarden\zen-style\style-pattern.scss\A \A 24:   background-color: white;\A 25:   padding: 1em;\A 26:   margin: 1em;\A 27: }\A 28: .colors {\A 29:   @include atoms.set-flex();\A 30:   > h3 {\A 31:     width: 100%;\A 32:     flex: 1 0 100%;\A 33:   }\A 34:   > figure {"; }
+h3, h4 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #00E4F5, 0 0 82px #00E4F5, 0 0 92px #00E4F5, 0 0 102px #00E4F5, 0 0 151px #00E4F5;
+}
+
+h2 {
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #30D952, 0 0 82px #30D952, 0 0 92px #30D952, 0 0 102px #30D952, 0 0 151px #30D952;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 900;
+  /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+a {
+  color: #00E4F5;
+  text-decoration: none;
+  -webkit-transition: border-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+}
+
+a:hover {
+  border-color: #30D952;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+html {
+  background-color: #151c2b;
+  padding: 5%;
+}
+
+body {
+  font-family: 'Neonderthaw', cursive;
+  font-size: 85%;
+  color: #00E4F5;
+  margin: 0;
+  padding: 1em;
+}
+
+section {
+  padding: 1em;
+  margin: 1em;
+}
+
+.swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+}
+
+.primary {
+  background-color: #00E4F5;
+}
+
+.accent1 {
+  background-color: #30D952;
+}
+
+.accent2 {
+  background-color: #D733AB;
+}
+
+.text-bright {
+  background-color: #00E4F5;
+}
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+/*# sourceMappingURL=style-pattern.css.map */
