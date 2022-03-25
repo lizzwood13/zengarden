@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tajawal:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada&family=MuseoModerno:wght@100;400;700&family=Tourney:ital,wght@0,500;1,500&display=swap");
+h2 {
+  font-family: "Neonderthaw", cursive;
+}
+
+h3,
+h4 {
+  font-family: "MuseoModerno", cursive;
+  margin: 0;
+}
+
+h1 {
+  background: #30D952;
+  color: #fff;
+  display: inline-block;
+  font-family: "MuseoModerno", cursive;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  font-size: 6.5em;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 300;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #D733AB, 0 0 82px #D733AB, 0 0 92px #D733AB, 0 0 102px #D733AB, 0 0 151px #D733AB;
+}
+
+h3,
+h4 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #151c2b, 0 0 82px #151c2b, 0 0 92px #151c2b, 0 0 102px #151c2b, 0 0 151px #151c2b;
+}
+
+h2 {
+  font-size: 5em;
+  letter-spacing: 1px;
+  line-height: 1em;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 42px #30D952, 0 0 82px #30D952, 0 0 92px #30D952, 0 0 102px #30D952, 0 0 151px #30D952;
+  background: #0000008c;
+  border: 0.25rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #108f2969, 0 0 0.8rem #108f2969, 0 0 2.8rem #108f2969, inset 0 0 1.3rem #108f2969;
+}
+
+p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  border-bottom: 1px solid #d733ab67;
+  color: #00E4F5;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+a:hover {
+  border-color: #30D952;
+}
+
+[role=banner] > h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.summary {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15% 0;
+}
+.summary p:last-child {
+  border-top: 1px solid #30D952;
+  margin-top: 1em;
+  padding-top: 1.5em;
+}
+.summary a {
+  color: #fff;
+}
+
+.preamble, .benefits, .archives, h1 {
+  background: #d733ab67;
+  border-color: #D733AB;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d733ab67, 0 0 0.8rem #d733ab67, 0 0 2.8rem #d733ab67, inset 0 0 1.3rem #d733ab67;
+}
+
+.explanation, .requirements, .resources, .summary {
+  background: #108f2969;
+  border-color: #30D952;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  border: 0.45rem double #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #108f2969, 0 0 0.8rem #108f2969, 0 0 2.8rem #108f2969, inset 0 0 1.3rem #108f2969;
+}
+
+.participation, .design-selection {
+  background: #00e5f536;
+  border-style: double;
+  border-width: thick;
+  border-color: #00E4F5;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #00e5f536, 0 0 0.8rem #00e5f536, 0 0 2.8rem #00e5f536, inset 0 0 1.3rem #00e5f536;
+}
+
+.intro {
+  padding: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #151c2b;
+  background: url(cityscape.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+  color: #00E4F5;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
