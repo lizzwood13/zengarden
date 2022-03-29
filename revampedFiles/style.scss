@@ -26,10 +26,13 @@ body {
   padding:0;
 
 }
-.page_wrapper {
+.page.wrapper {
   display:grid;
-  grid-template-columns: repeat(auto, 17);
-  grid-template-rows: repeat(auto, 19);
+  grid-template-columns: repeat(17, auto);
+  grid-template-rows: repeat(19, auto);
+}
+.intro, main {
+  display:content;
 }
 header {
   grid-row:2/4;
