@@ -18,57 +18,58 @@ html {
 
 body {
   font-family: $fonts-body;
-  font-size: 20px;
+  font-size: 16px;
   color: $text-dark;
   background-color: rgba(0,0,0,0);
   margin: 0;
   padding:0;
 
 }
-.page.wrapper {
+
 h1,h2,h3,p{
   max-width: 66ch;
 }
-  display:grid;
-  grid-template-columns: repeat(17, auto);
-  grid-template-rows: repeat(19, auto);
-}
-.intro, main {
-  display:content;
-}
-header {
-  grid-row:2/4;
-  grid-column: 5/15;
-}
-.summary {
-  grid-row:3/7;
-  grid-column:9/16;
-}
-aside {
-  grid-row:5/11;
-  grid-column:3/6;
-}
-.preamble{
-  grid-row: 6/13;
-  grid-column: 7/12;
-}
-.benefits{
-  grid-row: 8/9;
-  grid-column: 13/16;
-}
-.explanation{
-  grid-row: 11/13;
-  grid-column: 4/8;
-}
-.requirements{
-  grid-row: 10/16;
-  grid-column: 11/17;
-}
-.participation{
-  grid-row: 15/19;
-  grid-column: 2/9;
-}
-footer{
-  grid-row: 17/18;
-  grid-column: 10/14;
-}
+//.page-wrapper {
+//  display:grid;
+//  grid-template-columns: 2.8% 2.8% 5.6% 5.6% 11.3% 2.8% 2.8% 2.8% 5.6% 2.8% 2.8% 4.2% 22.5% 5.6% 8.5% 2.8% 8.5%;
+//  grid-template-rows: repeat(19, 100px);
+//}
+//.intro, main, header {
+//  display:content;
+//}
+//header h1 {
+//  grid-row:2/4;
+//  grid-column: 5/15;
+//}
+//.summary {
+//  grid-row:3/7;
+//  grid-column:9/16;
+//}
+//aside {
+//  grid-row:5/11;
+//  grid-column:3/6;
+//}
+//.preamble{
+//  grid-row: 6/13;
+//  grid-column: 7/12;
+//}
+//.benefits{
+//  grid-row: 8/9;
+//  grid-column: 13/16;
+//}
+//.explanation{
+//  grid-row: 11/13;
+//  grid-column: 4/8;
+//}
+//.requirements{
+//  grid-row: 10/16;
+//  grid-column: 11/17;
+//}
+//.participation{
+//  grid-row: 15/19;
+//  grid-column: 2/9;
+//}
+//footer{
+//  grid-row: 17/18;
+//  grid-column: 10/14;
+//}
