@@ -19,7 +19,7 @@
     color: $text-light; //in this case the link wants to be light instead of the default dark
   }
 }
-.preamble, .benefits, .archives, header{
+.preamble, header, footer{
   background: $pink-glow;
   border-color: $accent2;
   padding: 5%;
@@ -33,7 +33,11 @@
   inset 0 0 1.3rem $pink-glow;
 }
 
-.explanation, .requirements, .resources, .summary {
+header, footer {
+  padding:1.5%;
+  text-align:center;
+}
+.participation, aside, .benefits {
   background: $green-glow;
   border-color: $accent1;
   padding: 5% ;
@@ -47,7 +51,7 @@
     inset 0 0 1.3rem $green-glow;
 }
 
-.participation, .design-selection {
+.summary, .requirements, .explanation {
   background: $blue-glow;
   border-style: double;
   border-width: thick;
