@@ -28,7 +28,7 @@ body {
 .page-wrapper{
   display:grid;
   grid-template-columns:repeat(20, 1fr);
-  grid-template-rows: repeat(27, 50px);
+  grid-template-rows: repeat(27, auto);
   gap:20px;
 }
 .intro, .main, .supporting {
@@ -71,6 +71,36 @@ footer{
   grid-column: 6/20;
 }
 
+@media only screen and (max-width: 1000px) {
+  html {
+    max-width: 1000px;
+  }
+  .page-wrapper{
+    display:block;
+  }
+  .preamble, .benefits, .archives, .explanation, .requirements, .resources, .summary, .participation, .design-selection, aside, footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5%;
+  }
+
+.sidebar{
+  max-width: 50%;
+  margin-top: -230px;
+  margin-left: 40px;
+  font-size: 1.3em;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+height: 400px;
+margin-left: 450px;
+font-size: 3em;
+margin-right: 40px;
+}
+}
+
 @media only screen and (max-width: 600px) {
   html {
     max-width: 600px;
@@ -103,34 +133,4 @@ footer{
   * > * {
     text-align: center;
   }
-}
-
-@media only screen and (max-width: 1000px) {
-  html {
-    max-width: 1000px;
-  }
-  .page-wrapper{
-    display:block;
-  }
-  .preamble, .benefits, .archives, .explanation, .requirements, .resources, .summary, .participation, .design-selection, aside, footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 5%;
-  }
-}
-
-.sidebar{
-  max-width: 50%;
-  margin-top: -230px;
-  margin-left: 40px;
-  font-size: 1.3em;
-}
-
-footer{
-  display: flex;
-  flex-direction: column;
-height: 400px;
-margin-left: 450px;
-font-size: 3em;
-margin-right: 40px;
 }
