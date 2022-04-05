@@ -70,3 +70,37 @@ footer{
   grid-row:26/27;
   grid-column: 6/20;
 }
+
+@media only screen and (max-width: 600px) {
+  html {
+    max-width: 600px;
+  }
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  [role="banner"] {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 50px;
+    }
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .preamble, .benefits, .archives, h1, .explanation, .requirements, .resources, .summary, .participation, .design-selection {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5%;
+  }
+  * > * {
+    text-align: center;
+  }
+}
