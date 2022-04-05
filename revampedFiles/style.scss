@@ -1,7 +1,6 @@
 @use 'variables' as *; //this puts all the variables in the global namespace.
 @use 'atoms';
 @use 'molecules';
-@use 'organisms' as o;
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tajawal:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=MuseoModerno:wght@100;400;700&family=Tourney:ital,wght@0,500;1,500&display=swap');
 * {
@@ -14,61 +13,62 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 body {
   font-family: $fonts-body;
-  font-size: 20px;
+  font-size: 16px;
   color: $text-dark;
   background-color: rgba(0,0,0,0);
   margin: 0;
   padding:0;
 
 }
-h1,h2,h3,p{
-  max-width: 66ch;
-}
-.page-wrapper {
+
+.page-wrapper{
   display:grid;
-  grid-template-columns: repeat(auto, 17);
-  grid-template-rows: repeat(auto, 19);
+  grid-template-columns:repeat(20, 1fr);
+  grid-template-rows: repeat(27, 50px);
+  gap:20px;
+}
+.intro, .main, .supporting {
+  display:contents;
 }
 header {
-  grid-row:2/4;
-  grid-column: 5/15;
+  grid-row:2/7;
+  grid-column: 3/19;
 }
 .summary {
-  grid-row:3/7;
-  grid-column:9/16;
+  grid-row:7/10;
+  grid-column:6/20;
 }
 aside {
-  grid-row:5/11;
-  grid-column:3/6;
+  grid-row:7/16;
+  grid-column:2/6;
 }
 .preamble{
-  grid-row: 6/13;
-  grid-column: 7/12;
+  grid-row:10/17;
+  grid-column: 6/12;
 }
 .benefits{
-  grid-row: 8/9;
-  grid-column: 13/16;
+  grid-row:10/14;
+  grid-column: 12/20;
 }
 .explanation{
-  grid-row: 11/13;
-  grid-column: 4/8;
+  grid-row:16/27;
+  grid-column: 2/6;
 }
 .requirements{
-  grid-row: 10/16;
-  grid-column: 11/17;
+  grid-row:14/26;
+  grid-column: 12/20;
 }
 .participation{
-  grid-row: 15/19;
-  grid-column: 2/9;
+  grid-row:17/26;
+  grid-column: 6/12;
 }
 footer{
-  grid-row: 17/18;
-  grid-column: 10/14;
+  grid-row:26/27;
+  grid-column: 6/20;
 }
 
 @media only screen and (max-width: 600px) {
