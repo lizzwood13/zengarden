@@ -104,3 +104,19 @@ footer{
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  html {
+    max-width: 1000px;
+  }
+  .page-wrapper{
+    display:block;
+    grid-template-columns:repeat(10, 1fr);
+    grid-template-rows: repeat(27, 50px);
+    gap:20px;
+  }
+  .summary {
+    grid-row:7/10;
+    grid-column:6/20;
+  }
+}
